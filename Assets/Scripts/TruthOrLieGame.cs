@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System.Collections;
+using System.Threading;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -36,7 +37,7 @@ public class TruthOrLieGame : MonoBehaviour
             timer -= Time.deltaTime;
             if (timer <= 0 && !gameOver)
             {
-                EndGame("Время вышло!");
+                StartCoroutine(EndGame("Время вышло!"));
             }
         }
     }
@@ -59,7 +60,7 @@ public class TruthOrLieGame : MonoBehaviour
         {
             questionText.text = "Неправильно! Игра окончена.";
             Update();
-            EndGame("Неправильно! Игра окончена.");
+            StartCoroutine(EndGame("Неправильно! Игра окончена."));
             
             return;
         }
@@ -74,17 +75,17 @@ public class TruthOrLieGame : MonoBehaviour
         {
             questionText.text = "Победа! Все ответы верные!";
             Update();
-            EndGame("Победа! Все ответы верные!");
+            StartCoroutine(EndGame("Победа! Все ответы верные!"));
             
         }
     }
 
-    void EndGame(string message)
+    IEnumerator EndGame(string message)
     {
         gameOver = true;
         trueButton.interactable = false;
         falseButton.interactable = false;
-        Thread.Sleep(1000);
+        yield return new WaitForSeconds(3);
         gameObject.AddComponent<loadMain>().CallLoadMain();
     }
 }
