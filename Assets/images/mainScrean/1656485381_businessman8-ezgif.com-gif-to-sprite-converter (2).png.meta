@@ -1,0 +1,774 @@
+fileFormatVersion: 2
+guid: 70b175e088caad44e94fd1bfa7c5efee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3025
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad83f632904853145987dfb0db24d5f6
+      internalID: 585797503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_1
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3025
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa240b40370943545b2710ca4e907f3b
+      internalID: -468445627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_2
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 3025
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044de69ffa4efd142bf49775d5aa0dd0
+      internalID: -157937152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_3
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3025
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562c385cc8bba324b838c462135cd615
+      internalID: 1168730731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_4
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 3025
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8383dc8e546f184892d00c0ae16f684
+      internalID: 1821723677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2420
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2724dd7054b79124a8a0b35c6387f3cc
+      internalID: 1867528451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_6
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2420
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6925028f5ffc84eb82035b235f1dc9
+      internalID: 1985470035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_7
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2420
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c7820ee438b824880e555a9f1a1cbb
+      internalID: -437865374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_8
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2420
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432e05b49694b1e488d19b73c359fab1
+      internalID: -1814057391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_9
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2420
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744c02b7b2c2a4d4ab889b43239c5e64
+      internalID: -1117476752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1815
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbd14eb53b53834b80aa8a38e0019dc
+      internalID: -792954020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_11
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1815
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f397abec1657743a460f03f2bded49
+      internalID: 700780349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_12
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1815
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1d192af6a75984994a766b5f7a003a
+      internalID: 589600428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_13
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1815
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f95b2ac39ba264c851ae19975a72fd
+      internalID: 55008078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_14
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 1815
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d97c6d1ad983d48abe8fea95ef63c2
+      internalID: 165233342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ff44ac50a72274c96e3c511a9addb1
+      internalID: 1606309010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_16
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1210
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bedaaae71c4444a9e47646da37e918
+      internalID: 569887013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_17
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1210
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e067941e4bf00c409bf03f75e0d702f
+      internalID: -869227967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_18
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1210
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597af3ed27024464281db9b4d8484263
+      internalID: -640432820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_19
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 1210
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b089eded821af245934e6d054a53f3c
+      internalID: 2127900979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 605
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f8d455b2069574da21dea4c3d17bd5
+      internalID: -1116683065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_21
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 605
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adc5cc7f3eaf6f41bddfdb2be4c2464
+      internalID: 106765940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_22
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 605
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab14dd9f6e1c154080c95eb8c25af49
+      internalID: 855994202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_23
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 605
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88114930025b9e9499826757d0f256b6
+      internalID: 1066376560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_24
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 605
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5d864a13442ea47a49fe2ff7550759
+      internalID: -813849877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f3a009a4aed67489ea56d0e7a745bc
+      internalID: -1928237448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_26
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae3a0d037378f646b4968ad8927794a
+      internalID: -1532994890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_27
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c33ec180d4423a4ebbbad1cd84644ed
+      internalID: 814052656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_28
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 0
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653d19a5e400eec43a31683d5f885ebd
+      internalID: 1975973282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_29
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 0
+        width: 748
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60dd2b11327b2242b9ecb80faf2863b
+      internalID: 1514213335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_0: 585797503
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_1: -468445627
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_10: -792954020
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_11: 700780349
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_12: 589600428
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_13: 55008078
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_14: 165233342
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_15: 1606309010
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_16: 569887013
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_17: -869227967
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_18: -640432820
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_19: 2127900979
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_2: -157937152
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_20: -1116683065
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_21: 106765940
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_22: 855994202
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_23: 1066376560
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_24: -813849877
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_25: -1928237448
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_26: -1532994890
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_27: 814052656
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_28: 1975973282
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_29: 1514213335
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_3: 1168730731
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_4: 1821723677
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_5: 1867528451
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_6: 1985470035
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_7: -437865374
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_8: -1814057391
+      1656485381_businessman8-ezgif.com-gif-to-sprite-converter (2)_9: -1117476752
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
