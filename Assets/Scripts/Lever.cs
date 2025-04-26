@@ -34,7 +34,7 @@ public class Lever : MonoBehaviour
         }
         
         isTimeout = true;
-        var timer = new Timer(5000);
+        var timer = new Timer(3000);
         timer.AutoReset = false;
         image.sprite = off;
         EnergyController.Energy.OnLever();
