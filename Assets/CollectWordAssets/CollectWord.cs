@@ -10,7 +10,7 @@ public class CollectWord : MonoBehaviour
     public string Word;
     public int CurrentIndexWord = 0;
     public GameObject LetterButton;
-    public float colorChangeDuration = 0.0000005f;
+    public float colorChangeDuration = 0.5f;
     private HashSet<Button> buttonsClicked = new HashSet<Button>();
 
     void Start()
