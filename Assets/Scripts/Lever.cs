@@ -6,7 +6,6 @@ public class Lever : MonoBehaviour
     [SerializeField] private Sprite on;
     [SerializeField] private Sprite off;
     
-    [SerializeField] private EnergyController energyController;
 
     private bool isOn = false;
     
@@ -20,6 +19,6 @@ public class Lever : MonoBehaviour
     {
         isOn = !isOn;
         image.sprite = isOn ? on : off;
-        energyController.Energy.OnLever();
+        EnergyController.Energy.OnLever();
     }
 }
