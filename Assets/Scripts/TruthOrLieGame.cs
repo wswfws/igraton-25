@@ -37,6 +37,7 @@ public class TruthOrLieGame : MonoBehaviour
             timer -= Time.deltaTime;
             if (timer <= 0 && !gameOver)
             {
+                UsersSatisfactionController.Satisfaction.Value -= 30;
                 StartCoroutine(EndGame("Время вышло!"));
             }
         }
