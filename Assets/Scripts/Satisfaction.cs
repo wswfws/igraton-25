@@ -2,11 +2,11 @@ using System;
 
 public class Satisfaction
 {
-    private const float MaxSatisfaction = 100;
+    private const int MaxSatisfaction = 100;
     
-    private float _value = MaxSatisfaction;
+    private int _value = MaxSatisfaction;
     
-    public float Value
+    public int Value
     {
         get => _value;
         set
