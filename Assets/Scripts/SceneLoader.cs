@@ -4,11 +4,13 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     private string currentScrean = "";
+
     public void Start()
     {
         SceneManager.LoadScene("startScrean", LoadSceneMode.Additive);
         currentScrean = "startScrean";
     }
+
     private void UnloadNowScreen()
     {
         if (SceneManager.GetSceneByName(currentScrean).IsValid())
@@ -16,6 +18,7 @@ public class SceneLoader : MonoBehaviour
             SceneManager.UnloadSceneAsync(currentScrean);
         }
     }
+
     public void LoadMain()
     {
         UnloadNowScreen();
@@ -27,7 +30,7 @@ public class SceneLoader : MonoBehaviour
         UnloadNowScreen();
         SceneManager.LoadScene("3d mini-game", LoadSceneMode.Additive);
     }
-    
+
     public void LoadFirstGame()
     {
         UnloadNowScreen();
@@ -38,5 +41,11 @@ public class SceneLoader : MonoBehaviour
     {
         UnloadNowScreen();
         SceneManager.LoadScene("BadEnding", LoadSceneMode.Additive);
+    }
+
+    public void LoadSecondGame()
+    {
+        UnloadNowScreen();
+        SceneManager.LoadScene("2nd mini game", LoadSceneMode.Additive);
     }
 }
