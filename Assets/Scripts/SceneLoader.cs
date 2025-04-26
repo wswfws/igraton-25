@@ -3,8 +3,22 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadScene()
+    private string currentScrean = "";
+    public void Start()
     {
+        SceneManager.LoadScene("startScrean", LoadSceneMode.Additive);
+        currentScrean = "startScrean";
+    }
+    private void UnloadNowScreen()
+    {
+        if (SceneManager.GetSceneByName(currentScrean).IsValid())
+        {
+            SceneManager.UnloadSceneAsync(currentScrean);
+        }
+    }
+    public void LoadMain()
+    {
+        UnloadNowScreen();
         SceneManager.LoadScene("mainScrean");
     }
 }
