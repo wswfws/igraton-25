@@ -156,10 +156,10 @@ RectTransform:
   - {fileID: 895731985}
   m_Father: {fileID: 317841887}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300.0645, y: 40.582962}
-  m_SizeDelta: {x: 261.1687, y: 68.9072}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 300.0645, y: 40.582947}
+  m_SizeDelta: {x: -1658.8313, y: -921.0928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &294211379
 MonoBehaviour:
@@ -588,6 +588,7 @@ GameObject:
   - component: {fileID: 1314225266}
   - component: {fileID: 1314225268}
   - component: {fileID: 1314225267}
+  - component: {fileID: 1314225269}
   m_Layer: 5
   m_Name: hero
   m_TagString: Untagged
@@ -634,7 +635,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1536404260, guid: 1994fe3575a273e44b4b0e24459bfdeb, type: 3}
+  m_Sprite: {fileID: 585797503, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -652,6 +653,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314225265}
   m_CullTransparentMesh: 1
+--- !u!114 &1314225269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314225265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43a900812739174788775ea52203247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 2
+  sprites:
+  - {fileID: 585797503, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: -468445627, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: -157937152, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: 1168730731, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: 1821723677, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: 1867528451, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: 1985470035, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: -437865374, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: -1814057391, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: -1117476752, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
+  - {fileID: -792954020, guid: 70b175e088caad44e94fd1bfa7c5efee, type: 3}
 --- !u!1 &1516269063
 GameObject:
   m_ObjectHideFlags: 0
