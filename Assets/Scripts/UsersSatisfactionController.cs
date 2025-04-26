@@ -5,7 +5,7 @@ public class UsersSatisfactionController : MonoBehaviour
 {
     public Slider SatisfactionSlider;
     
-    public Satisfaction Satisfaction { get; } = new();
+    public static Satisfaction Satisfaction { get; } = new();
     
     private void Update()
     {
