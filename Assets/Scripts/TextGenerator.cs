@@ -2,11 +2,9 @@ using System;
 using TMPro;
 using UnityEngine;
 using System.Collections.Generic;
-using System;
 
 public class TextGenerator : MonoBehaviour
 {
-    // Start is called before the first frame update
     public TextMeshProUGUI text;
     private static Dictionary<string, string> incorrectWords = new()
     {
@@ -32,13 +30,20 @@ public class TextGenerator : MonoBehaviour
 
     public void CheckIsCorrect(string word)
     {
-        // Corrected: Use ContainsKey instead of Contains
-        if (incorrectWords.ContainsKey(word))
+        if (!incorrectWords.ContainsKey(word)) return;
+        goodWords.Add(word);
+        switch (new System.Random().Next(3))
         {
-            goodWords.Add(word);
-            if (new System.Random().Next(2) == 1) gameObject.AddComponent<Load3Game>().CallLoad3Game();
-            else gameObject.AddComponent<Load1Game>().CallLoad1Game();
-            EnergyController.DestroyTimer();
+            case 0:
+                gameObject.AddComponent<Load3Game>().CallLoad3Game();
+                break;
+            case 1:
+                gameObject.AddComponent<Load1Game>().CallLoad1Game();
+                break;
+            case 2:
+                gameObject.AddComponent<Load2Game>().CallLoad2Game();
+                break;
         }
+        EnergyController.DestroyTimer();
     }
 }

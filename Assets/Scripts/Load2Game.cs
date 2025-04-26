@@ -1,21 +1,19 @@
-﻿using UnityEngine;
+using UnityEngine;
 
-public class loadMain: MonoBehaviour
+public class Load2Game: MonoBehaviour
 {
-    public void CallLoadMain()
+    public void CallLoad2Game()
     {
-        // Находим объект "loader" в сцене
         GameObject loaderObject = GameObject.Find("loader");
         
-        if (loaderObject)
+        if (loaderObject != null)
         {
-            // Получаем компонент SceneLoader
             SceneLoader sceneLoader = loaderObject.GetComponent<SceneLoader>();
+            Debug.Log(sceneLoader);
             
-            if (sceneLoader)
+            if (sceneLoader != null)
             {
-                // Вызываем метод LoadMain()
-                sceneLoader.LoadMain();
+                sceneLoader.LoadSecondGame();
             }
             else
             {
