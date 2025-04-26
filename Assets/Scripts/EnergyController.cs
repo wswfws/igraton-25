@@ -1,4 +1,3 @@
-using System;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,17 +7,17 @@ public class EnergyController : MonoBehaviour
     public Energy Energy { get; } = new();
     
     [SerializeField]
-    public Slider EnergySlider;
+    public Slider energySlider;
 
     private Timer _secondTimer;
 
     private void Start()
     {
-        _secondTimer = new(_ => Energy.OnSecond(), null, Timeout.InfiniteTimeSpan, TimeSpan.FromSeconds(1));
+        _secondTimer = new(_ => Energy.OnSecond(), null, 0, 1000);
     }
 
     private void Update()
     {
-        EnergySlider.value = Energy.Value;
+        energySlider.value = Energy.Value;
     }
 }

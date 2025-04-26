@@ -1,18 +1,19 @@
 public class Energy
 {
-    public const int MaxEnergy = 100;
+    public const float MaxEnergy = 100;
     
-    private int _value = MaxEnergy;
+    private float _value = MaxEnergy;
     
-    public int Value { get; private set; }
+    public float Value => _value;
 
     public void OnSecond()
     {
-        _value -= 10;
+        _value -= MaxEnergy / 20;
     }
 
     public void OnLever()
     {
-        _value += 40;
+        _value += MaxEnergy / 2.5f;
+        if (_value > MaxEnergy) _value = MaxEnergy;
     }
 }
