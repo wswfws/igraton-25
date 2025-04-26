@@ -19,6 +19,12 @@ public class SceneLoader : MonoBehaviour
     public void LoadMain()
     {
         UnloadNowScreen();
-        SceneManager.LoadScene("mainScrean");
+        SceneManager.LoadScene("mainScrean", LoadSceneMode.Additive);
+    }
+
+    public void LoadThirdGame()
+    {
+        UnloadNowScreen();
+        SceneManager.LoadScene("3d mini-game", LoadSceneMode.Additive);
     }
 }

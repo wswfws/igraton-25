@@ -19,5 +19,6 @@ public class TextWordFinder : MonoBehaviour, IPointerClickHandler
         var linkInfo = textMeshPro.textInfo.wordInfo[linkIndex];
         var clickedWord = linkInfo.GetWord();
         Debug.Log("Clicked word: " + clickedWord);
+        GetComponent<TextGenerator>().CheckIsCorrect(clickedWord);
     }
 }

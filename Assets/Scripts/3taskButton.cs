@@ -63,6 +63,6 @@ public class ClickClickGame : MonoBehaviour
     {
         isEnd = true;
         timerText.text = isWin ? "Congrats! You win!" : "Times up! You loose!";
-        throw new NotImplementedException("Добавить возвращение на гл сцену");
+        gameObject.AddComponent<loadMain>().CallLoadMain();
     }
 }

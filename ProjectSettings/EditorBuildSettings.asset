@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/startScrean.unity
     guid: fcb6edfc1a389f647832d88199d9b7cf
+  - enabled: 1
+    path: Assets/Scenes/3d mini-game.unity
+    guid: 1d630dd9306f2e54ea701e23af64a57a
   m_configObjects: {}
