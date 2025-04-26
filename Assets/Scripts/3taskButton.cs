@@ -3,6 +3,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
+using System.Threading;
 using Random = UnityEngine.Random;
 
 public class ClickClickGame : MonoBehaviour
@@ -63,6 +64,7 @@ public class ClickClickGame : MonoBehaviour
     {
         isEnd = true;
         timerText.text = isWin ? "Congrats! You win!" : "Times up! You loose!";
+        Thread.Sleep(1000);
         gameObject.AddComponent<loadMain>().CallLoadMain();
     }
 }

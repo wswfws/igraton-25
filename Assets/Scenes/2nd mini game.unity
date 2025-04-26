@@ -583,19 +583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80bd1b05335d2cf438694328fd976693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionText: {fileID: 1097050551}
-  trueButton: {fileID: 450604148}
-  falseButton: {fileID: 269497598}
-  timePerQuestion: 2
-  questions:
-  - "\u0417\u0435\u043C\u043B\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
-  - "\u0412\u043E\u0434\u0430 \u043A\u0438\u043F\u0438\u0442 \u043F\u0440\u0438 100\xB0C"
-  - "\u041A\u043E\u0448\u043A\u0438 \u043C\u043E\u0433\u0443\u0442 \u043B\u0435\u0442\u0430\u0442\u044C"
-  - "Python - \u044D\u0442\u043E \u044F\u0437\u044B\u043A \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F"
-  answers: 
-  currentQuestion: 0
-  timer: 0
-  gameOver: 0
 --- !u!1 &1097050550
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1097050553}
   - component: {fileID: 1097050552}
+  - component: {fileID: 1097050554}
   - component: {fileID: 1097050551}
   m_Layer: 5
   m_Name: questionText
@@ -730,6 +718,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000030518, y: 121.76532}
   m_SizeDelta: {x: 1583.8518, y: 122.6908}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1097050554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097050550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80272514a3a4c028f3bfe6d1bbb4643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 1097050551}
+  trueButton: {fileID: 450604148}
+  falseButton: {fileID: 269497598}
+  timePerQuestion: 3
 --- !u!1 &1121080480
 GameObject:
   m_ObjectHideFlags: 0

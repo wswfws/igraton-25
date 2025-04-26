@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Threading;
+using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
@@ -56,7 +57,10 @@ public class TruthOrLieGame : MonoBehaviour
         
         if (!isCorrect)
         {
+            questionText.text = "Неправильно! Игра окончена.";
+            Update();
             EndGame("Неправильно! Игра окончена.");
+            
             return;
         }
 
@@ -68,15 +72,19 @@ public class TruthOrLieGame : MonoBehaviour
         }
         else
         {
+            questionText.text = "Победа! Все ответы верные!";
+            Update();
             EndGame("Победа! Все ответы верные!");
+            
         }
     }
 
     void EndGame(string message)
     {
         gameOver = true;
-        questionText.text = message;
         trueButton.interactable = false;
         falseButton.interactable = false;
+        Thread.Sleep(1000);
+        gameObject.AddComponent<loadMain>().CallLoadMain();
     }
 }
