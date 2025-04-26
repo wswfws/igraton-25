@@ -7,12 +7,12 @@ public class loadMain: MonoBehaviour
         // Находим объект "loader" в сцене
         GameObject loaderObject = GameObject.Find("loader");
         
-        if (loaderObject != null)
+        if (loaderObject)
         {
             // Получаем компонент SceneLoader
             SceneLoader sceneLoader = loaderObject.GetComponent<SceneLoader>();
             
-            if (sceneLoader != null)
+            if (sceneLoader)
             {
                 // Вызываем метод LoadMain()
                 sceneLoader.LoadMain();
