@@ -1,13 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UsersSatisfactionController : MonoBehaviour
 {
-    public int SatisfactionDecrease { get; set; } = 5;
+    public Slider SatisfactionSlider;
     
     public Satisfaction Satisfaction { get; private set; } = new();
-
+    
     private void Update()
     {
-        Satisfaction.Value -= SatisfactionDecrease;
+        SatisfactionSlider.value = Satisfaction.Value;
     }
 }
