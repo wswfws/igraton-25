@@ -91,8 +91,10 @@
     <Compile Include="Assets/Scripts/SceneLoader.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Scripts/setNewMusic.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/Scripts/musicControl.cs" />
+    <Compile Include="Assets/Scripts/setMusicVolume.cs" />
     <Compile Include="Assets/Scripts/Satisfaction.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/Scripts/TextGenerator.cs" />
