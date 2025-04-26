@@ -23,11 +23,6 @@ public class TextGenerator : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        
-    }
-
     public void CheckIsCorrect(string word)
     {
         if (!incorrectWords.ContainsKey(word)) return;

@@ -26,8 +26,8 @@ public class EnergyController : MonoBehaviour
         Debug.Log(Energy.Value);
         if (Energy.Value <= 0 && !hasFailed)
         {
-            gameObject.AddComponent<LoadBadEnd>().CallLoadBadEnd();
             hasFailed = true;
+            gameObject.AddComponent<LoadBadEnd>().CallLoadBadEnd();
         }
     }
 

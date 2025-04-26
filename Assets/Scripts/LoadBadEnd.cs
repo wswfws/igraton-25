@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LoadBadEnd : MonoBehaviour
 {
+    // ReSharper disable Unity.PerformanceAnalysis
     public void CallLoadBadEnd()
     {
         // Находим объект "loader" в сцене
