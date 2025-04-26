@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3d mini-game.unity
     guid: 1d630dd9306f2e54ea701e23af64a57a
+  - enabled: 1
+    path: Assets/Scenes/BadEnding.unity
+    guid: 521818e09a40f4946b3e9684b9bcd873
   m_configObjects: {}

@@ -33,4 +33,10 @@ public class SceneLoader : MonoBehaviour
         UnloadNowScreen();
         SceneManager.LoadScene("CollectWordGame", LoadSceneMode.Additive);
     }
+
+    public void LoadBadEnding()
+    {
+        UnloadNowScreen();
+        SceneManager.LoadScene("BadEnding", LoadSceneMode.Additive);
+    }
 }
