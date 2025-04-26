@@ -59,6 +59,7 @@ public class TruthOrLieGame : MonoBehaviour
         if (!isCorrect)
         {
             questionText.text = "Неправильно! Игра окончена.";
+            UsersSatisfactionController.Satisfaction.Value -= 30;
             Update();
             StartCoroutine(EndGame("Неправильно! Игра окончена."));
             

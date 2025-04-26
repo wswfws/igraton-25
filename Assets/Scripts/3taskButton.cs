@@ -29,7 +29,11 @@ public class ClickClickGame : MonoBehaviour
         if (!isEnd)
         {
             timer += Time.deltaTime;
-            if (timer >= maxTimer) EndGame(false);
+            if (timer >= maxTimer)
+            {
+                EndGame(false);
+                return;
+            }
             timerText.text = "Times remaining: " + Mathf.Ceil(maxTimer - timer) + " sec.";
         }
     }
@@ -42,6 +46,7 @@ public class ClickClickGame : MonoBehaviour
         if (score >= 10)
         {
             EndGame(true);
+            return;
         }
 
         var screenWidth = Screen.width;
@@ -63,8 +68,21 @@ public class ClickClickGame : MonoBehaviour
     private void EndGame(bool isWin)
     {
         isEnd = true;
-        timerText.text = isWin ? "Congrats! You win!" : "Times up! You loose!";
-        Thread.Sleep(1000);
+        if (isWin)
+        {
+            timerText.text = "Congrats! You win!";
+        }
+        else
+        {
+            timerText.text = "Times up! You loose!";
+            UsersSatisfactionController.Satisfaction.Value -= 30;
+        }
+        StartCoroutine(EndMiniGame(3));
+    }
+
+    IEnumerator EndMiniGame(int time)
+    {
+        yield return new WaitForSeconds(time);
         gameObject.AddComponent<loadMain>().CallLoadMain();
     }
 }

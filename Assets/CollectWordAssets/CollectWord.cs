@@ -8,14 +8,18 @@ using UnityEngine.UI;
 public class CollectWord : MonoBehaviour
 {
     public string Word;
-    public int CurrentIndexWord = 0;
+    private int CurrentIndexWord = 0;
     public GameObject LetterButton;
+    public TextMeshProUGUI mistakesText;
     public float colorChangeDuration = 0.5f;
     private HashSet<Button> buttonsClicked = new HashSet<Button>();
     private int correctSymbols = 0;
+    private bool isEnd = false;
+    private int mistakesDoneCount;
 
     void Start()
     {
+        mistakesText.text = "Mistakes done: 0/3";
         var lettersPos = GameObject.FindGameObjectsWithTag("LetterPos");
         var usedPositions = new HashSet<int>();
         foreach (var letter in Word)
@@ -48,6 +52,7 @@ public class CollectWord : MonoBehaviour
     
     IEnumerator HandleButtonClick(Button button, bool isCorrect)
     {
+        if (isEnd) yield break;
         var buttonImage = button.GetComponent<Image>();
         var originalColor = buttonImage.color;
         ColorUtility.TryParseHtmlString("#70B02C", out var correctColor);
@@ -71,6 +76,18 @@ public class CollectWord : MonoBehaviour
         if (isCorrect) Destroy(button.gameObject);
         else
         {
+            mistakesDoneCount++;
+            mistakesText.text = "Mistakes done: " + mistakesDoneCount + "/3";
+            if (mistakesDoneCount == 3)
+            {
+                isEnd = true;
+                Debug.Log(13223132);
+                yield return new WaitForSeconds(1);
+                mistakesText.text = "You loose(";
+                yield return new WaitForSeconds(3);
+                UsersSatisfactionController.Satisfaction.Value -= 30;
+                gameObject.AddComponent<loadMain>().CallLoadMain();
+            }
             buttonImage.color = originalColor;
             button.interactable = true;
         }
