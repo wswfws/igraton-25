@@ -1,3 +1,4 @@
+using System.Timers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,8 +7,9 @@ public class Lever : MonoBehaviour
     [SerializeField] private Sprite on;
     [SerializeField] private Sprite off;
     
-
-    private bool isOn = false;
+    private bool isTimeout = false;
+    
+    private volatile bool changeToOn = false;
     
     private Image image;
     void Start()
@@ -15,10 +17,33 @@ public class Lever : MonoBehaviour
         image = GetComponent<Image>();
     }
 
+    void Update()
+    {
+        if (changeToOn)
+        {
+            image.sprite = on;
+            changeToOn = false;
+        }
+    }
+
     public void OnClick()
     {
-        isOn = !isOn;
-        image.sprite = isOn ? on : off;
+        if (isTimeout)
+        {
+            return;
+        }
+        
+        isTimeout = true;
+        var timer = new Timer(5000);
+        timer.AutoReset = false;
+        image.sprite = off;
         EnergyController.Energy.OnLever();
+        timer.Elapsed += (_, _) =>
+        {
+            isTimeout = false;
+            changeToOn = true;
+            timer.Stop();
+        };
+        timer.Start();
     }
 }
