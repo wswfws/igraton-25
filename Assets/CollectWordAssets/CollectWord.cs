@@ -49,7 +49,9 @@ public class CollectWord : MonoBehaviour
     {
         var buttonImage = button.GetComponent<Image>();
         var originalColor = buttonImage.color;
-        var targetColor = isCorrect ? Color.green : Color.red;
+        ColorUtility.TryParseHtmlString("#70B02C", out var correctColor);
+        ColorUtility.TryParseHtmlString("#BA2727", out var wrongColor);
+        var targetColor = isCorrect ? correctColor : wrongColor;
         var elapsed = 0f;
         if (isCorrect && buttonsClicked.Add(button))
         {
