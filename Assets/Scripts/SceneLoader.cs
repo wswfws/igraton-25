@@ -27,4 +27,10 @@ public class SceneLoader : MonoBehaviour
         UnloadNowScreen();
         SceneManager.LoadScene("3d mini-game", LoadSceneMode.Additive);
     }
+    
+    public void LoadFirstGame()
+    {
+        UnloadNowScreen();
+        SceneManager.LoadScene("CollectWordGame", LoadSceneMode.Additive);
+    }
 }

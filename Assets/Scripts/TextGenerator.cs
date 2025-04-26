@@ -1,6 +1,8 @@
+using System;
 using TMPro;
 using UnityEngine;
 using System.Collections.Generic;
+using System;
 
 public class TextGenerator : MonoBehaviour
 {
@@ -9,7 +11,7 @@ public class TextGenerator : MonoBehaviour
     private static Dictionary<string, string> incorrectWords = new()
     {
         ["наживasfdasыми"] = "ножевыми",
-        ["железывадорожный"] = "железнодорожный"
+        ["железывадорожный"] = "железнодорожной"
     };
 
     private static HashSet<string> goodWords = new();
@@ -34,7 +36,8 @@ public class TextGenerator : MonoBehaviour
         if (incorrectWords.ContainsKey(word))
         {
             goodWords.Add(word);
-            gameObject.AddComponent<Load3Game>().CallLoad3Game();
+            if (new System.Random().Next(2) == 1) gameObject.AddComponent<Load3Game>().CallLoad3Game();
+            else gameObject.AddComponent<Load1Game>().CallLoad1Game();
             EnergyController.DestroyTimer();
         }
     }

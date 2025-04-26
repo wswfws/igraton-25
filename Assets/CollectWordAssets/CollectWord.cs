@@ -12,6 +12,7 @@ public class CollectWord : MonoBehaviour
     public GameObject LetterButton;
     public float colorChangeDuration = 0.5f;
     private HashSet<Button> buttonsClicked = new HashSet<Button>();
+    private int correctSymbols = 0;
 
     void Start()
     {
@@ -56,6 +57,9 @@ public class CollectWord : MonoBehaviour
         if (isCorrect && buttonsClicked.Add(button))
         {
             CurrentIndexWord++;
+            correctSymbols++;
+            if (correctSymbols == Word.Length) gameObject.AddComponent<loadMain>().CallLoadMain();
+            Debug.Log(correctSymbols);
         }
         while (elapsed < colorChangeDuration)
         {
