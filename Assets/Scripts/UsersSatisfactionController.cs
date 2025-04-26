@@ -1,18 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class UsersSatisfactionController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int SatisfactionDecrease { get; set; } = 5;
+    
+    public Satisfaction Satisfaction { get; private set; } = new();
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        Satisfaction.Value -= SatisfactionDecrease;
     }
 }
