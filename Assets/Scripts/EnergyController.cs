@@ -23,7 +23,7 @@ public class EnergyController : MonoBehaviour
     private void Update()
     {
         energySlider.value = Energy.Value;
-        Debug.Log(Energy.Value);
+        //Debug.Log(Energy.Value);
         if (Energy.Value <= 0 && !hasFailed)
         {
             hasFailed = true;

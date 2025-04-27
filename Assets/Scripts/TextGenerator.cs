@@ -54,19 +54,30 @@ public static class NewsLibrary
 public class TextGenerator : MonoBehaviour
 {
     public TextMeshProUGUI text;
+    private static News _news = NewsLibrary.GetRandomNews();
     private static Dictionary<string, string> incorrectWords;
-
     private static HashSet<string> goodWords = new();
 
-    void Start()
+    private void LoadNews()
     {
-        var news = NewsLibrary.GetRandomNews();
-        incorrectWords = news.incorrectWords;
-        text.text = news.text;
+        incorrectWords = _news.incorrectWords;
+        print(incorrectWords.Count);
+        print(goodWords.Count);
+        if (incorrectWords.Count == goodWords.Count)
+        {
+            _news = NewsLibrary.GetRandomNews();
+        }
+
+        text.text = _news.text;
         foreach (var word in goodWords)
         {
             text.text = text.text.Replace(word, incorrectWords[word]);
         }
+    }
+
+    void Start()
+    {
+        LoadNews();
     }
 
     public void CheckIsCorrect(string word)
@@ -85,6 +96,11 @@ public class TextGenerator : MonoBehaviour
                 gameObject.AddComponent<Load2Game>().CallLoad2Game();
                 break;
         }
+
+        // if (incorrectWords.Count == goodWords.Count)
+        // {
+        //     LoadNews();
+        // }
 
         EnergyController.DestroyTimer();
     }
